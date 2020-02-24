@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -17,7 +19,8 @@ header {
 }
 
 h1, h2{
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn, select { 
@@ -30,6 +33,7 @@ h1, h2{
 
 section p {
   font-size: 12px;
+  font-family: 'Lato', sans-serif;
 }
 
 .btn[value="ADD TO CART"] {
