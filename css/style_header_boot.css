@@ -39,7 +39,7 @@ button:focus {
 	outline: none;
 }
 
-button img {
+img.cartimg {
 	height: 40px;
 }
 
@@ -98,5 +98,15 @@ button img {
 	color: #4A4B4B;
 	transition: 0.5s;
 }
+
+.icons img {
+	height: 30px;
+}
+
+
+footer {
+	background-color: #272727;
+}
+
 
 
