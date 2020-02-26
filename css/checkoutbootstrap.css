@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
 img.img {
-	height: 170px;
+	height: 180px;
 }
 
 .otherproducts img {
@@ -8,45 +13,33 @@ img.img {
 
 .icons img {
 	height: 30px;
-	margin-bottom: 10px;
 }
 
 .name h2 {
-	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
 h1 {
 	font-size: 25px;
-	margin-bottom: 30px;
-	font-family: 'Roboto', sans-serif;
 }
 
 .signin h2, label {
 	font-size: 13px;
-	margin-left: 60px;
-	font-family: 'Roboto', sans-serif;
 }
 
 select, input {
 	background-color: #272727;
 }
 
-.submit.col-12 input {
-	margin-left: 60px;
-}
-
-h4 {
+h4, h6 {
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
 }
 
-.otherproducts p {
-    font-size: 13px;
+p.col-6 {
+	font-size: 12px;
 }
 
-.shipping p {
-	font-family: 'Roboto', sans-serif;
+.shipping p, .otherproducts p{
 	font-size: 13px;
 }
 
@@ -57,15 +50,10 @@ footer {
 /*TABLET*/
 
 @media screen and (min-width: 768px) {
-    img.img {
-		height: 200px;
-    }
 
-    .submit.col-12 input {
-	    margin-left: 5px;
-	    margin-bottom: 10px;
+    .name h2 {
+	    font-size: 17px;
     }
-   
 }
 
 @media screen and (min-width: 960px) {
@@ -76,15 +64,11 @@ footer {
 
     .signin h2, label {
 		font-size: 13px;
-		margin-left: 50px;
-    }
-
-    .otherproducts{
-    	margin-left: 10%;
+		padding-left: 35px;
     }
 
     h4 {
-    	margin-left: 12%;
+    	margin-left: 10%;
     }
     
     
