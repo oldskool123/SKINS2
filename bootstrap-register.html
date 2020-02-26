@@ -10,15 +10,110 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="css/style_bootstrap-register.css">
+
+    <!--HEADER CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style_header_boot.css">
     <title>SKINS - REGISTER BOOT A2</title>
 </head>
 <body>
-    <header class="d-flex justify-content-center">
-        SKINS
-    </header>
-
+    <!--HEADER-->
     <div class="container-fluid">
+        <!--NAVBAR-->
+        <nav class="row navbar navbar-dark bg-light">
+            <button id="cartbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/shoppingbag.png">
+            </button>
+            <div class="collapse navbar-collapse fixed-left" id="navbarNav">
+                <div class="row cart d-flex justify-content-center p-0 m-0">
+                    <div class="cart_text1 text-white">You have 1 items in your cart</div>
+                    <hr class="cart_text2 text-white">
+                    <img src="img/aesopcart.png">
+                    <div class="cart_text3 text-white">Total</div>  
+                    <div class="cart_text3 text-white">200$</div>
+                    <button class="checkout_btn">Check Out</button>
+                </div> 
+            </div>
+
+            <a class="navbar-brand" id="logo" href="#">SKINS</a>
+
+            <button id="hamburgerbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-1"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
+
+    <!--REGISTER FORM-->
+    <form class="form-group mt-4 p-2">
+        <h2 class="text-center mb-3">SKINS 🖤 YOU</h2>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="firstname" class="col-sm-2 col-form-label text">First Name</label>
+            <div class="col-sm-10">
+                <input type="firstname" class="form-control bg-dark" id="firstName" placeholder="Enter here">
+            </div>
+        </div>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="lastname" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-10">
+                <input type="lastname" class="form-control bg-dark" id="lastName" placeholder="Enter here">
+            </div>
+        </div>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control bg-dark" id="eMail" placeholder="Enter here">
+            </div>
+        </div>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="streetadress" class="col-sm-2 col-form-label">Street Adress</label>
+            <div class="col-sm-10">
+                <input type="streetadress" class="form-control bg-dark" id="streetAdress" placeholder="Enter here">
+            </div>
+        </div>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="city" class="col-sm-2 col-form-label">City</label>
+            <div class="col-sm-10">
+                <input type="city" class="form-control bg-dark" id="citY" placeholder="Enter here">
+            </div>
+        </div>
+        <div class="form-group row ml-md-5 mr-md-5">
+            <label for="country-form" class="col-sm-2 col-form-label">Country</label>
+            <div class="col-sm-10">
+                <select class="form-control bg-dark" id="countrY">
+                    <option>Sweden</option>
+                    <option>Norway</option>
+                    <option>Denmark</option>
+                    <option>USA</option>
+                    <option>Asia</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-check row m-2 mt-5 mr-5 ml-5 text-center">
+            <input type="checkbox" class="form-check-input" id="checkbox">
+            <label class="form-check-label col-sm-2 col-form-label" for="exampleCheck1">
+                By clicking yes, you accept the terms and conditions.
+            </label>
+            <button type="submit" class="btn btn-dark ml-5 mb-5">
+                Submit
+            </button>
+        </div>
+    </form>
+
 
     <footer class="d-flex justify-content-center">
         FOOTER

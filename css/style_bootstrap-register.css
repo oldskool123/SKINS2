@@ -3,7 +3,24 @@
 	padding:0;
 }
 
-header {
+footer,
+.bg-dark,
+.btn-dark {
 	background-color: #272727;
+}
+
+footer,
+.bg-dark,
+.btn-dark {
 	color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    height: 200px;
+}
+
+.form-control {
+	border: none;
+	border-radius: 0;
 }

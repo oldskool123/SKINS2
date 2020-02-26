@@ -3,11 +3,22 @@
 	padding:0;
 }
 
-
 /*NAVBAR MOBILE---------------*/
+
+#navbarNav2,
+.nav-link,
+.cart,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.nav-side,
+.nav-side.active {
+	color: #fff;
+}
+
 #navbarNav2 {
 	background-color: #272727;
-	color: #fff;
+	/*color: #fff;*/
 }
 
 #hamburgerbutton span.navbar-toggler-icon {
@@ -15,11 +26,11 @@
 
 .nav-link {
 	text-align: center;
-	color: #fff;
+	/*color: #fff;*/
 }
 
 .cart {
-	color: #fff;
+	/*color: #fff;*/
 	text-align: right;
 	width: 80%;
 }
@@ -43,12 +54,12 @@ button img {
 }
 
 .navbar-light .navbar-brand {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-	color: #fff;
+	/*color: #fff;*/
 	font-size: 19px; /*fix later*/
 }
 
@@ -62,7 +73,7 @@ button img {
 
 .nav-side,
 .nav-side.active {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 .nav-side a, .nav-side a:hover {
