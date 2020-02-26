@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <title>SKINS - PRODUCTS BOOT</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -9,16 +9,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style_header_boot.css">
     <link rel="stylesheet" type="text/css" href="css/style_bootstrap-products.css">
-    <title>SKINS - PRODUCTS BOOT</title>
 </head>
 <body>
-    <header class="d-flex justify-content-center">
-        SKINS
-    </header>
-
+    <!--HEADER-->
     <div class="container-fluid">
-        
+        <!--NAVBAR-->
+        <nav class="row navbar navbar-dark bg-light">
+            <button id="cartbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="cartimg" src="img/shoppingbag.png">
+            </button>
+            <div class="collapse navbar-collapse fixed-left" id="navbarNav">
+                <div class="row cart d-flex justify-content-center p-0 m-0">
+                    <div class="cart_text1 text-white">You have 1 items in your cart</div>
+                    <hr class="cart_text2 text-white">
+                    <img src="img/aesopcart.png">
+                    <div class="cart_text3 text-white">Total</div>  
+                    <div class="cart_text3 text-white">200$</div>
+                    <a href="checkoutbootstrap.html"><button class="checkout_btn">Check Out</button></a>
+                </div> 
+            </div>
+
+            <a class="navbar-brand" id="logo" href="#">SKINS</a>
+
+            <button id="hamburgerbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-1"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="bootstrap-products.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="bootstrap-register.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container-fluid">
         <!--SEARCHBAR-->
         <div class="row justify-content-center">
             <div class="input-group col-md-8 mt-1 mb-1">
@@ -55,34 +92,34 @@
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                     <a href="#" title="Byredo">
-                        <img src="img/byredo_eleventh.jpg" alt="Byredo" class="w-100">
+                        <img src="img/byredo_mojave.jpg" alt="Byredo" class="w-100">
                         <p class="product-text"><strong>Byredo</strong></p>
-                        <p class="product-text">Eleventh Hour Eau de Parfume, 100ml</p>
+                        <p class="product-text">Mojave Eau de Parfume, 100ml</p>
                         <p class="product-text">1300SEK</p>
                     </a>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                     <a href="#" title="Byredo">
-                        <img src="img/byredo_eleventh.jpg" alt="Byredo" class="w-100">
+                        <img src="img/byredo_slowdance.jpg" alt="Byredo" class="w-100">
                         <p class="product-text"><strong>Byredo</strong></p>
-                        <p class="product-text">Eleventh Hour Eau de Parfume, 100ml</p>
+                        <p class="product-text">Slowdance Eau de Parfume, 100ml</p>
                         <p class="product-text">1300SEK</p>
                     </a>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                     <a href="#" title="Byredo">
-                        <img src="img/byredo_eleventh.jpg" alt="Byredo" class="w-100">
+                        <img src="img/byredo_suede.jpg" alt="Byredo" class="w-100">
                         <p class="product-text"><strong>Byredo</strong></p>
-                        <p class="product-text">Eleventh Hour Eau de Parfume, 100ml</p>
+                        <p class="product-text">Suede Eau de Parfume, 100ml</p>
                         <p class="product-text">1300SEK</p>
                     </a>
                 </div>
 
                 <div class="col-6 col-md-4 col-lg-3">
-                    <a href="#" title="L:a Bruket">
-                        <img src="img/labruket_cucumber.jpg" alt="image" class="w-100">
+                    <a href="productbootstrap.html" title="L:a Bruket">
+                        <img src="img/labruket_olja.jpg" alt="image" class="w-100">
                         <p class="product-text"><strong>L:a Bruket</strong></p>
-                        <p class="product-text">Hand & Body Wash Cucumber Mint, 250ml</p>
+                        <p class="product-text">Face Oil</p>
                         <p class="product-text">179SEK</p>
                     </a>        
                 </div>
@@ -147,10 +184,20 @@
         </div>
     </div>
 
-    <footer class="d-flex justify-content-center">
-        FOOTER
+    <footer class="row">
+        <div class="col-12">
+            <h5 class="text-white text-center">SKINS</h5>
+            <a class="text-white" href=""><p>Delivery</p></a>
+            <a class="text-white" href=""><p>Products</p></a>
+            <a class="text-white" href=""><p>Mail: info@skins.com</p></a>
+            <div class="icons col-12 d-flex justify-content-end ml-3">              
+                <a href=""><img class="ml-2 mb-3" src="img/insta2.png"></a>
+                <a href=""><img class="ml-2 mb-3" src="img/fb.png"></a>
+            </div>
+        </div>
     </footer>
 
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

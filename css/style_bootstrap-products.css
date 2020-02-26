@@ -3,6 +3,14 @@
 	padding:0;
 }
 
+body {
+	font-family: 'Lato', ;
+}
+
+h2 {
+	font-family: 'Roboto', ;
+}
+
 a, .product-text  {
 	color: #000;
 }
@@ -24,6 +32,20 @@ header {
 .searchbar, .category {
 	background-color: #FAF6FF;
 }
+
+/*NAVBAR HEADER*/
+
+img.cartimg {
+  height: 40px;
+}
+
+/*SEARCHBAR---------------*/
+
+/*CATEGORY NAVBAR*/
+
+
+/*PRODUCT GALLERY---------------*/
+
 
 .product-text {
 	font-size: 0.8rem;

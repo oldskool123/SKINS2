@@ -16,7 +16,7 @@
         <!--NAVBAR-->
         <nav class="row navbar navbar-dark bg-light">
             <button id="cartbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="img/shoppingbag.png">
+                <img class="cartimg" src="img/shoppingbag.png">
             </button>
             <div class="collapse navbar-collapse fixed-left" id="navbarNav">
                 <div class="row cart d-flex justify-content-center p-0 m-0">
@@ -25,7 +25,7 @@
                     <img src="img/aesopcart.png">
                     <div class="cart_text3 text-white">Total</div>  
                     <div class="cart_text3 text-white">200$</div>
-                    <button class="checkout_btn">Check Out</button>
+                    <a href="checkoutbootstrap.html"><button class="checkout_btn">Check Out</button></a>
                 </div> 
             </div>
 
@@ -40,10 +40,10 @@
                         <a class="nav-link text-white" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Shop</a>
+                        <a class="nav-link text-white" href="bootstrap-products.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sign Up</a>
+                        <a class="nav-link text-white" href="bootstrap-register.html">Sign Up</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Contact</a>
@@ -108,10 +108,17 @@
             </button>
         </div>
     </form>
-
-
-    <footer class="d-flex justify-content-center">
-        FOOTER
+    <footer class="row">
+        <div class="col-12">
+            <h5 class="text-white text-center">SKINS</h5>
+            <a class="text-white" href=""><p>Delivery</p></a>
+            <a class="text-white" href=""><p>Products</p></a>
+            <a class="text-white" href=""><p>Mail: info@skins.com</p></a>
+            <div class="icons col-12 d-flex justify-content-end ml-3">              
+                <a href=""><img class="ml-2 mb-3" src="img/insta2.png"></a>
+                <a href=""><img class="ml-2 mb-3" src="img/fb.png"></a>
+            </div>
+        </div>
     </footer>
 
 
