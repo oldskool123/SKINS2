@@ -4,7 +4,6 @@
 }
 
 /*NAVBAR MOBILE---------------*/
-
 #navbarNav2,
 .nav-link,
 .cart,
@@ -18,7 +17,12 @@
 
 #navbarNav2 {
 	background-color: #272727;
-	/*color: #fff;*/
+}
+
+/*NAVBAR MOBILE---------------*/
+#navbarNav2 {
+	background-color: #272727;
+	color: #fff;
 }
 
 #hamburgerbutton span.navbar-toggler-icon {
@@ -26,11 +30,9 @@
 
 .nav-link {
 	text-align: center;
-	/*color: #fff;*/
 }
 
 .cart {
-	/*color: #fff;*/
 	text-align: right;
 	width: 80%;
 }
@@ -43,9 +45,6 @@ button img {
 	height: 40px;
 }
 
-/*CART---------------*/
-
-
 /*LOGO---------------*/
 .navbar-brand {
 	position: fixed;
@@ -53,14 +52,9 @@ button img {
 	top: 0.7rem;
 }
 
-.navbar-light .navbar-brand {
-	/*color: #fff;*/
-}
-
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-	/*color: #fff;*/
-	font-size: 19px; /*fix later*/
+	font-size: 19px;
 }
 
 .navbar.navbar-light.bg.light {
@@ -69,11 +63,6 @@ button img {
 
 .bg-light {
 	background-color: #272727 !important;
-}
-
-.nav-side,
-.nav-side.active {
-	/*color: #fff;*/
 }
 
 .nav-side a, .nav-side a:hover {
@@ -89,7 +78,6 @@ button img {
 }
 
 /*HAMBURGER TOGGLER---------------*/
-
 .nav-item .nav-link {
 	text-align: center;
 }
