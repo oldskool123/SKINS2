@@ -7,13 +7,53 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+   
     <link rel="stylesheet" type="text/css" href="css/productbootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style_header_boot.css">
     <title>SKINS - PRODUCT</title>
   </head>
   <body>
     <div class="pp_container">
-      <header class="text-center text-white mb-4">SKINS - PRODUCT</header>
+      <div class="container-fluid mb-5">
+        <!--NAVBAR-->
+        <nav class="row navbar navbar-dark bg-light">
+            <button id="cartbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="cartimg" src="img/shoppingbag.png">
+            </button>
+            <div class="collapse navbar-collapse fixed-left" id="navbarNav">
+                <div class="row cart d-flex justify-content-center p-0 m-0">
+                    <div class="cart_text1 text-white">You have 1 items in your cart</div>
+                    <hr class="cart_text2 text-white">
+                    <img src="img/aesopcart.png">
+                    <div class="cart_text3 text-white">Total</div>  
+                    <div class="cart_text3 text-white">200$</div>
+                    <button class="checkout_btn">Check Out</button>
+                </div> 
+            </div>
+
+            <a class="navbar-brand" id="logo" href="#">SKINS</a>
+
+            <button id="hamburgerbutton" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-1"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
       <div class="row">
         <section class="text-center col-sm-12 col-md-6 col-lg-6">
           <div class="heading d-lg-none">
@@ -38,7 +78,7 @@
               </p>
               <hr class="d-none d-lg-block">
               <div class="row">
-                <select class="col-2 col-lg-1 offset-1 offset-lg-0 ml-lg-4 p-2 text-white ml-lg-1" name="How many" required>
+                <select class="col-2 col-lg-1 offset-1 offset-lg-0 ml-lg-4 p-2 text-white" name="How many" required>
                       <option value="1" selected="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -55,8 +95,8 @@
      <footer>
         <h5 class="text-white text-center">SKINS</h5>
         <a href="" class="text-white"><p class="ml-2">Delivery</p></a>
-        <a href="" class="text-white "><p class="ml-2">Pruducts</p></a>
-        <a href="" class="text-white "><p class="ml-2">Mail: info@skins.com</p></a>
+        <a href="" class="text-white "><p class="ml-2">Products</p></a>
+        <a href="" class="text-white "><p class="ml-2">Mail: hello@skins.com</p></a>
         <div class="icons text-right mr-1 pb-1">
           <a href=""><img class="mb-2 mr-1" src="img/insta2.png"></a>
           <a href=""><img class="mb-2 mr-1" src="img/fb.png"></a>
