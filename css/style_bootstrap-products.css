@@ -4,7 +4,11 @@
 }
 
 body {
+	font-family: 'Lato', ;
+}
 
+h2 {
+	font-family: 'Roboto', ;
 }
 
 a, .product-text  {
@@ -35,13 +39,9 @@ header {
 
 /*NAVBAR HEADER*/
 
-/*SEARCHBAR---------------*/
-
-/*CATEGORY NAVBAR*/
-
-
-/*PRODUCT GALLERY---------------*/
-
+img.cartimg {
+  height: 40px;
+}
 
 .product-text {
 	font-size: 0.8rem;
