@@ -1,5 +1,10 @@
+*{
+	margin:0;
+	padding:0;
+ }
+ 
 img.img {
-	height: 180px;
+	height: 170px;
 }
 
 .otherproducts img {
@@ -12,48 +17,29 @@ img.img {
 }
 
 .name h2 {
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	padding-right: 10px;
+	font-size: 15px;
 }
 
 h1 {
 	font-size: 25px;
 	margin-bottom: 30px;
-	font-family: 'Roboto', sans-serif;
 }
 
 .signin h2, label {
 	font-size: 13px;
-	margin-left: 25px;
-	font-family: 'Roboto', sans-serif;
+	margin-left: 60px;
 }
 
 select, input {
 	background-color: #272727;
 }
 
+.submit.col-12 input {
+	margin-left: 60px;
+}
+
 h4 {
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
-}
-
-p.col-6 {
-	font-size: 12px;
-}
-
-.otherproducts p {
-    font-size: 13px;
-}
-
-h6 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-}
-
-.shipping p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
 }
 
 footer {
@@ -63,24 +49,32 @@ footer {
 /*TABLET*/
 
 @media screen and (min-width: 768px) {
-
-    .name h2 {
-	    font-size: 17px;
+    img.img {
+		height: 200px;
     }
 
-    .signin h2, label {
-		margin-left: 70px;
+    .submit.col-12 input {
+	    margin-left: 5px;
+	    margin-bottom: 10px;
+    }
+    
+    .shipping p {
+    	font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 960px) {
-
     img.img {
 		height: 250px;
     }
 
     .signin h2, label {
 		font-size: 13px;
-		margin-left: 35%;
+		margin-left: 50px;
+    }
+    
+    .otherproducts p {
+    	font-size: 13px;
     }
 
     .otherproducts{
