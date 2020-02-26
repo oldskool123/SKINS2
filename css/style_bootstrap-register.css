@@ -24,3 +24,7 @@ footer {
 	border: none;
 	border-radius: 0;
 }
+
+.icons img {
+	height: 30px;
+}

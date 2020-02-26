@@ -20,6 +20,10 @@ a:hover {
 	transform: scale(0.9); /*not working*/
 }
 
+header, footer {
+	background-color: #272727;
+}
+
 header {
 	background-color: #272727;
 	color: #fff;
@@ -43,3 +47,8 @@ header {
 	font-size: 0.8rem;
 	padding-left: 1rem;
 }
+
+.icons img {
+	height: 30px;
+}
+
