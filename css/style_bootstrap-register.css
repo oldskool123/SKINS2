@@ -17,16 +17,14 @@ img.cartimg {
   height: 40px;
 }
 
-footer,
+header, footer {
+	color: #fff;
+}
+
+header, footer,
 .bg-dark,
 .btn-dark {
 	background-color: #272727;
-}
-
-footer,
-.bg-dark,
-.btn-dark {
-	color: #fff;
 }
 
 footer {
@@ -37,4 +35,8 @@ footer {
 .form-control {
 	border: none;
 	border-radius: 0;
+}
+
+.icons img {
+	height: 30px;
 }
