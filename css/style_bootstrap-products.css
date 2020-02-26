@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+body {
+
+}
+
 a, .product-text  {
 	color: #000;
 }
@@ -16,6 +20,10 @@ a:hover {
 	transform: scale(0.9); /*not working*/
 }
 
+header, footer {
+	background-color: #272727;
+}
+
 header {
 	background-color: #272727;
 	color: #fff;
@@ -25,7 +33,22 @@ header {
 	background-color: #FAF6FF;
 }
 
+/*NAVBAR HEADER*/
+
+/*SEARCHBAR---------------*/
+
+/*CATEGORY NAVBAR*/
+
+
+/*PRODUCT GALLERY---------------*/
+
+
 .product-text {
 	font-size: 0.8rem;
 	padding-left: 1rem;
 }
+
+.icons img {
+	height: 30px;
+}
+
